@@ -1,1 +1,24 @@
 /* your code */
+*{
+    		font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    		width: 950px;
+    	}
+
+    	 .main{
+    	 	border: 2px solid #EAE0CF;
+    	 	text-align: left;
+    	 	border-radius: 15px;
+            overflow: hidden;
+
+    	 }
+
+         table thead {
+         	background-color: #2F578A ;
+         	color: white;
+         	font-size: 14px;
+         	
+         }
+
+         table tbody tr:nth-child(even){
+         	background-color: lightgray;
+         }
